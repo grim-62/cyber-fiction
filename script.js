@@ -583,50 +583,43 @@ function canva(){
     scroller: `#main`,
   //   set start end according to preference
     start: `top top`,
-    end: `400% top`,
+    end: `600% top`,
   });
 }
 canva();
 
 
-gsap.to("#pg1",{
-  scrollTrigger:{
-    trigger:"#pg1",
-    scroller:"#main",
-    // mrkers:true,
-    start:`top top`,
-    end:`bottom top`,
-    pin:true
-  },
-})
 gsap.to("#pg2",{
   scrollTrigger:{
-    trigger:"#pg2",
-    scroller:"#main",
-    // mrkers:true,
+    trigger:`#pg2`,
     start:`top top`,
     end:`bottom top`,
-    pin:true
-  },
+    markers:true,
+    pin:true,
+    scroller:`#main`
+  }
 })
+
+gsap.to("#pg3",{
+  scrollTrigger:{
+    trigger:`#pg3`,
+    start:`top top`,
+    end:`bottom top`,
+    markers:true,
+    pin:true,
+    scroller:`#main`
+  }
+})
+
 gsap.to("#pg4",{
   scrollTrigger:{
-    trigger:"#pg4",
-    scroller:"#main",
-    // mrkers:true,
+    trigger:`#pg4`,
     start:`top top`,
     end:`bottom top`,
-    pin:true
-  },
+    markers:true,
+    pin:true,
+    scroller:`#main`
+  }
 })
-gsap.to("#pg6",{
-  scrollTrigger:{
-    trigger:"#pg6",
-    scroller:"#main",
-    // mrkers:true,
-    start:`top top`,
-    end:`bottom top`,
-    pin:true
-  },
-})
+
 

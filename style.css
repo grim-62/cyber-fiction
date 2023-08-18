@@ -154,8 +154,8 @@ canvas{
     margin-top: 15vw;
     height: 50vh;
     width: 100vw;
-    position: relative;
-    z-index: 99;
+    position: absolute;
+    z-index: 98;
 }
 #pg2-left p{
     font-size: 1.3vh;
@@ -245,7 +245,7 @@ canvas{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    z-index: 99;
+    z-index: 9;
 }
 #pg4-left{
     color: #FEFEFE;
