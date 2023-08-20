@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }
 html,body{
-    background-color: #2E2E2E;
+    background: linear-gradient(70deg, #000, #343434);
     height: 100%;
     width: 100%;
 }
@@ -109,7 +109,7 @@ canvas{
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-100% - 7px));
+        transform: translateX(calc(-100% - 4px));
     }
 }
 #p1-center{
@@ -146,7 +146,7 @@ canvas{
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #2E2E2E;
+    
 }
 #p2-center{
     display: flex;
@@ -237,7 +237,8 @@ canvas{
     position: absolute;
     height: 100%;
     width: 100%;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
 }
 #pg4-center{
     height: 50%;
@@ -270,12 +271,55 @@ canvas{
 #pg5{
     height: 100vh;
     width: 100vw;
-    background-color: red;
+    background-color:#F0F0F0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+#pg5 p{
+    margin-top: 20vh;
+    font-family: u2;
+}
+#pg5 h1{
+    text-align: center;
+    font-family: u2;
+    font-size: 6.5vh;
+}
+#txt2{
+    margin-top: -15vh;
+    display: flex;
+    gap: 3vw;
+}
+#pg5-end{
+   
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    /* background-color: red; */
+}
+#p5end-wrap{
+    position: relative;
+    display: flex;
+    width: 100vw;
+}
+#p5end-wrap span{
+    margin-left: -15vh;
+}
+#p5end-wrap img{
+    width: 47.5vh;
 }
 #pg6{
     height: 100vh;
     width: 100vw;
-    background-color: #999;
+    background-color: linear-gradient(70deg, #000, #343434);
+}
+#avatar-wrap{
+    animation-name: slide1;
+    animation-duration: 28s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+    display: flex;
 }
 #pg7{
     background-color: lightskyblue;

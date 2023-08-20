@@ -594,7 +594,7 @@ gsap.to("#pg2",{
     trigger:`#pg2`,
     start:`top top`,
     end:`bottom top`,
-    markers:true,
+    // markers:true,
     pin:true,
     scroller:`#main`
   }
@@ -605,7 +605,7 @@ gsap.to("#pg3",{
     trigger:`#pg3`,
     start:`top top`,
     end:`bottom top`,
-    markers:true,
+    // markers:true,
     pin:true,
     scroller:`#main`
   }
@@ -616,7 +616,7 @@ gsap.to("#pg4",{
     trigger:`#pg4`,
     start:`top top`,
     end:`bottom top`,
-    markers:true,
+    // markers:true,
     pin:true,
     scroller:`#main`
   }
